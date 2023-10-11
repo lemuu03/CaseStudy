@@ -22,6 +22,7 @@ for i in range(0, 6):
     new_turtle.goto(x=-230, y=y_coor[i])
     all_turtles.append(new_turtle)
 
+#if bet is true, then the race will start
 if bet:
     is_race_on = True
 
@@ -40,31 +41,4 @@ while is_race_on:
 
 
 
-
-
-
-#ETCH-A-SKETCH
-# def move_forward():
-#     tim.fd(10)
-#
-# def move_backward():
-#     tim.backward(10)
-#
-# def clockwise():
-#     t = tim.heading() + 10
-#     tim.setheading(t)
-#
-# def counter_clockwise():
-#     t = tim.heading() - 10
-#     tim.setheading(t)
-#
-# def clear():
-#     tim.reset()
-#
-# screen.listen()
-# screen.onkey(key="w", fun=move_forward)
-# screen.onkey(key="s", fun=move_backward)
-# screen.onkey(key="a", fun=clockwise)
-# screen.onkey(key="d", fun=counter_clockwise)
-# screen.onkey(key="c", fun=clear)
 screen.exitonclick()
