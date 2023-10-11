@@ -22,6 +22,7 @@ for i in range(0, 6):
     new_turtle.goto(x=-230, y=y_coor[i])
     all_turtles.append(new_turtle)
 
+#if bet is true, then the race will start
 if bet:
     is_race_on = True
 
