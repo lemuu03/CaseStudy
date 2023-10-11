@@ -26,6 +26,7 @@ for i in range(0, 6):
 if bet:
     is_race_on = True
 
+#while the race is on the for loop inside will continue to run.
 while is_race_on:
 
     for turtle in all_turtles:
