@@ -13,6 +13,7 @@ colors = ["green", "red", "blue", "yellow", "violet", "indigo"]
 
 y_coor = [-100, -60, -20, 20, 60, 100]
 
+#created a list for a list to hold all the turtles
 all_turtles = []
 
 for i in range(0, 6):
